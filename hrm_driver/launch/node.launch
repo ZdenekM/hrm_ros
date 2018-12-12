@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="mac" default="FB:AA:43:AC:5E:B7"/>
+    <node pkg="hrm_driver" type="hrm_node.py" name="hrm_driver_node" respawn="true">
+        <param name="mac" value="$(arg mac)"/>
+    </node>
+</launch>

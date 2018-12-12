@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>hrm_msgs</name>
+  <version>0.0.0</version>
+  <description>The hrm_msgs package</description>
+  <maintainer email="zdenal@todo.todo">zdenal</maintainer>
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+</package>
