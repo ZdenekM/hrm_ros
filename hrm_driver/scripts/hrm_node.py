@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
     rospy.init_node("hrm_node")
 
-    pub = rospy.Publisher("/hrm/data", HrmData, queue_size=1)
+    pub = rospy.Publisher("/hrm/polar", HrmData, queue_size=1)
 
     cccid = AssignedNumbers.client_characteristic_configuration
     hrmid = AssignedNumbers.heart_rate
